@@ -19,10 +19,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/mzmuer/gmsm/crypto"
-	"github.com/mzmuer/gmsm/crypto/cryptobyte"
-	cryptobyte_asn1 "github.com/mzmuer/gmsm/crypto/cryptobyte/asn1"
 	"github.com/mzmuer/gmsm/sm2"
+	"github.com/mzmuer/gmsm/x509/internal/crypto"
+	"github.com/mzmuer/gmsm/x509/internal/crypto/cryptobyte"
+	cryptobyte_asn1 "github.com/mzmuer/gmsm/x509/internal/crypto/cryptobyte/asn1"
 )
 
 type certificate struct {
