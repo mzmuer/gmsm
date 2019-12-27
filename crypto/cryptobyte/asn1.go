@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/mzmuer/gmsm/x509/internal/crypto/cryptobyte/asn1"
+	"github.com/mzmuer/gmsm/crypto/cryptobyte/asn1"
 )
 
 // This file contains ASN.1-related methods for String and Builder.
